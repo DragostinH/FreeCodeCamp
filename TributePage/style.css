@@ -1,0 +1,85 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    ;
+}
+
+main {
+    background-color: #eee;
+    border-radius: 5px;
+
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+.h1-undertext {
+    text-align: center;
+}
+
+#img-div {
+    border-radius: 5px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: white;
+    /* padding: 10px; */
+}
+
+#img-div img {
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+
+#tribute-info {
+    display: flex;
+    flex-direction: column;
+    /* max-width: 500px; */
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+
+    /* align-items: center; 
+    justify-content: center; */
+    /* flex-wrap: wrap; */
+}
+
+.timeline li {
+    margin: 15px;
+}
+
+
+#img-caption {
+    margin: 15px 15px 15px;
+    text-align: center;
+}
+
+blockquote {
+width: 50%;
+}
+
+.quote-from-PM{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.quote-from-PM cite{
+    text-align: center;
+}
+
