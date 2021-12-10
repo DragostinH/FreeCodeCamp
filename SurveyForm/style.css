@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+
+body{
+    background-image: url(img/Venice.jpeg);
+    color: white;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    font-family: Poppins, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+
+
+#title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+
+
+#survey-form{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 50%);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+#survey-form .form-group{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+
+}
+
+#survey-form .role-dropdown, #favourite-feature{
+    padding: 6px 12px;
+    border-radius: 5px;
+
+}
+
+
+label{
+    /* top right bottom left */
+    /* margin: 10px 0 10px 0px; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+input{
+    border-radius: 5px;
+    height: 2em;
+}
+
+
+
+.radio-selectors{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.checkboxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-radio{
+    height: 2em;
+    font-size: 1em;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#submit-button{
+    display: flex;
+    width: 100%;
+
+}
+
+button{
+    flex:1;
+    padding: 6px 12px;
+    border-radius: 6px;
+    background-color: forestgreen;
+    color: white;
+}
